@@ -1,0 +1,146 @@
+commit 284a37d5713cee67255d5947d28504438ec490f7
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Thu Feb 9 22:50:41 2023 -0500
+
+    change css
+
+commit 42e962d7e0cc01fc9d7265b39b3a64a285d44264
+Merge: 67ede98 3cdf108
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Thu Feb 9 08:48:19 2023 -0500
+
+    change 2
+
+commit 67ede98df9a069af170c8ec6d9f9a291a7bf2dfb
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Thu Feb 9 08:47:08 2023 -0500
+
+    change 2
+
+commit d59226b4e44166a100027223fa26040fbf87425e
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Wed Feb 8 20:29:19 2023 -0500
+
+    estaciondes del año
+
+commit 3cdf108e8742b007a45fd99a5f85619d1eda1e35
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Wed Feb 8 20:29:19 2023 -0500
+
+    estaciones
+
+commit d49b5ad4e054b407ae8ec9f20e873b47e60f5f94
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Wed Feb 8 20:09:28 2023 -0500
+
+    change
+
+commit 5e19e81bc7db12041ddf0fa0681570ac527161f8
+Merge: a41ebfe db9fba5
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Wed Feb 8 20:07:14 2023 -0500
+
+    resolviendo conflicto merge main/html
+
+commit db9fba5eec96495568180ba043e87eaff9ab8e13
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Wed Feb 8 19:29:43 2023 -0500
+
+    agregando informacion a al index rama html
+
+commit a41ebfea3836ff2b80dad28e7222edfcd56dda40
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Wed Feb 8 19:26:49 2023 -0500
+
+    agregando informacion en html2
+
+commit 0bf70acc4e1d26fee35215af73a2b6b73d89267d
+Merge: 045deb9 7b2a101
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Wed Feb 8 11:13:05 2023 -0500
+
+    Merge branch 'javascript' into main
+
+commit 045deb95be5fd0112cecaec02cce8481bc5f430d
+Merge: 023e8b2 46e7a09
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Wed Feb 8 11:10:22 2023 -0500
+
+    Merge branch 'css' into main
+
+commit 023e8b2ed02b41958cd2f968b9a8beee0c13bd65
+Merge: 0199b87 73a5a60
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Wed Feb 8 11:07:35 2023 -0500
+
+    Merge branch 'html' into main
+
+commit 73a5a6017909e05d94ebe82a0c4fd8a62b02a1a8
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Wed Feb 8 11:03:55 2023 -0500
+
+    link script
+
+commit 7b2a10195963b123d53e24f9e8b7a8662efbb49b
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Wed Feb 8 11:02:25 2023 -0500
+
+    contenido al archivo js
+
+commit f9a0cb348aa089f6b39a1441ea98bac156f11eb2
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Wed Feb 8 11:00:28 2023 -0500
+
+    informacion html2
+
+commit 46e7a0988c5d74ea6ef7312b1b7fa8725d33fa83
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Wed Feb 8 10:58:37 2023 -0500
+
+    agregando css
+
+commit 5afc922e5c59b8ed76030785fc03a8f5211776fd
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Wed Feb 8 10:34:32 2023 -0500
+
+    create html 2
+
+commit 0199b8702136321688179f3398ef487a91162c3d
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Wed Feb 8 09:00:52 2023 -0500
+
+    change .gitignore
+
+commit 54d90c371e06fb586b6314ed25b273ad91e697c9
+Author: andres 360nat <40310099+sirandresitog@users.noreply.github.com>
+Date:   Wed Feb 8 08:19:30 2023 -0500
+
+    create license
+
+commit d16792f5f91a7625ebbb91c6d5c1fb29d665e5c8
+Author: andres 360nat <40310099+sirandresitog@users.noreply.github.com>
+Date:   Wed Feb 8 08:12:29 2023 -0500
+
+    change  info readme
+    
+    wallet
+
+commit a844d69b48113b3f30f3f5fc8f81b7222a506ac6
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Wed Feb 8 07:47:35 2023 -0500
+
+    second commit
+
+commit 43501e21a18cb74e254e80a9a46cc2a70f896fc9
+Author: andres 360nat <40310099+sirandresitog@users.noreply.github.com>
+Date:   Wed Feb 8 07:37:12 2023 -0500
+
+    create Readme.md example
+    
+    create md example
+
+commit 11d2e3a63573ad6d8d7db5471ad1ab0208ca3c50
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Wed Feb 8 07:21:04 2023 -0500
+
+    my first commit
