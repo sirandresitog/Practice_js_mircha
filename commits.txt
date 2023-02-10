@@ -1,8 +1,34 @@
-commit 284a37d5713cee67255d5947d28504438ec490f7
+commit 21a21935ec0afba285dc1378e6e1939d0ba73f9f
+Merge: 1ab133e 42e962d
 Author: sirandresitog <sirandresitog@gmail.com>
-Date:   Thu Feb 9 22:50:41 2023 -0500
+Date:   Thu Feb 9 22:58:55 2023 -0500
 
-    change css
+    changes fix index2
+
+commit 1ab133e5870d8af00e872a13cc3629a89afa6bf1
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Thu Feb 9 22:56:04 2023 -0500
+
+    historial commits
+
+commit e31f68de1442d712f659c605d6d73b693cc47fac
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Thu Feb 9 09:16:36 2023 -0500
+
+    delet container
+
+commit 8d6a18c874ccc6ef4db251ebdc46013213d79ab8
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Thu Feb 9 08:58:48 2023 -0500
+
+    agregando 2 parrafos
+
+commit 0aef8af3d3840282c28d9551be4e638f189639d4
+Merge: 67ede98 3cdf108
+Author: sirandresitog <sirandresitog@gmail.com>
+Date:   Thu Feb 9 08:48:19 2023 -0500
+
+    change 3
 
 commit 42e962d7e0cc01fc9d7265b39b3a64a285d44264
 Merge: 67ede98 3cdf108
