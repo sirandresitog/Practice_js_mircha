@@ -461,6 +461,13 @@ li span {
   background-color: #c9d3ee;
   color: #000;
 }
+.ajax{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+  font-size: 4rem;
+}
 /* *********** Scrollspy ***************** */
 
 @media screen and (min-width: 1024px) {
