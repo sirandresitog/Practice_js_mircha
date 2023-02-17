@@ -16,7 +16,7 @@
         $li.innerHTML = `${el.name} <br> ${el.email} <br> ${el.phone}`;
         $fragment.appendChild($li);
       });
-      $xhr.appendChild($fragment);
+      $xhr.appendChild($fragment);  
     } else {
       // console.log("error");
       let message = xhr.statusText || "Ocurrio un error al traer los datos";
@@ -58,4 +58,80 @@
     .finally(() => {
       //console.log("Esto se ejecutara independientemente de la promesa FETCH");
     });
+})();
+(() => {
+  const $fetchAsync = document.getElementById("fetch-async"),
+    $fragment = document.createDocumentFragment();
+  async function getData() {
+    try {
+      let res = await fetch("https://jsonplaceholder.typicode.com/users"),
+        json = await res.json();
+      //console.log(res, json);
+      if (!res.ok) {
+        throw { status: res.status, statustext: res.statusText };
+      }
+      json.forEach((el) => {
+        const $li = document.createElement("li");
+        $li.innerHTML = `${el.name} <br> ${el.email} <br> ${el.website} <br> ${el.phone}`;
+        $fragment.appendChild($li);
+      });
+      $fetchAsync.appendChild($fragment);
+    } catch (error) {
+      // console.log(error, "estoy en el catch");
+      let message = error.message || "Ocurrio un error";
+      $fetchAsync.innerHTML = `Error  ${error.status}: ${message}`;
+    } finally {
+      //console.log("esto se ejecutara independientemente del try catch");
+    }
+  }
+  getData();
+})();
+(() => {
+  const $axios = document.getElementById("axios"),
+    $fragment = document.createDocumentFragment();
+  axios
+    .get("https://jsonplaceholder.typicode.com/users")
+    .then((res) => {
+      //console.log(res);
+      let json = res.data;
+      json.forEach((el) => {
+        const $li = document.createElement("li");
+        $li.innerHTML = `${el.name} <br> ${el.email} <br> ${el.website} <br> ${el.phone}`;
+        $fragment.appendChild($li);
+      });
+      $axios.appendChild($fragment);
+    })
+    .catch((err) => {
+      //console.log(err.response);
+      let message = err.response.statusText || "Ocurrio un error";
+      $axios.innerHTML = `Error  ${err.response.status}: ${message}`;
+    })
+    .finally(() => {
+      //console.log("esto se ejecutara independientemente del resultado AXIOS");
+    });
+})();
+(() => {
+  const $axiosAsync = document.getElementById("axios-async"),
+    $fragment = document.createDocumentFragment();
+
+  async function getData() {
+    try {
+      let res = await axios.get("https://jsonplaceholder.typicode.com/users"),
+        json = await res.data;
+        json.forEach((el) => {
+          const $li = document.createElement("li");
+          $li.innerHTML = `${el.name} <br> ${el.email} <br> ${el.website} <br> ${el.phone}`;
+          $fragment.appendChild($li);
+        });
+        $axiosAsync.appendChild($fragment);
+     // console.log(res, json);
+    } catch (err) {
+      //console.log(err.response);
+      let message = err.response.statusText || "Ocurrio un error";
+      $axiosAsync.innerHTML = `Error  ${err.response.status}: ${message}`;
+    } finally {
+      console.log("esto se ejecutara independientemente del resultado AXIOS-ASYNC");
+    }
+  }
+  getData();
 })();

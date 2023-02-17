@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <body>
+    <form id="mcmMCD" name="mcmMCD" style="padding-top: 1rem">
+      <label forHTML="dataInput">Introduzca números enteros separados por coma: </label>
+      <br><br>
+      <input type="text" id="dataInput" name="dataInput" size="30" placeholder="32,12,96" pattern="^\d+[0-9,]+\d+$"
+        required />
+      <button type="button" onclick="calcularMCDmcm()">Calcular</button>
+      <br><br>
+      <div id="MCD"></div>
+      <div id="mcm"></div>
+    </form>
+    <script src="./mcd.js"></script>
+  </body>
+</body>
+</html>

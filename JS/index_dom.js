@@ -18,6 +18,7 @@ import scrollspy from "./scroll_spy.js";
 import smartVideo from "./smart_video.js";
 import contactFormvalidations from "./contact_form_validation.js";
 import speechReader from "./narrador.js";
+import mcd from "./mcd.js";
 
 const d = document;
 
