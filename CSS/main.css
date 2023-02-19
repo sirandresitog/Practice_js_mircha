@@ -301,7 +301,7 @@ li span {
   -o-transition: opacity 1s eas;
   opacity: 0;
   visibility: hidden;
-  // border: thin solid #000;
+  /* border: thin solid #000; */
 }
 .slider-slide img {
   height: inherit;
