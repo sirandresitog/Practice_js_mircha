@@ -1,4 +1,6 @@
-assets/
+*.mp4
+*.mp3
+.identifier
 # esto es un comentario
 archivo.ext
 #carpeta
