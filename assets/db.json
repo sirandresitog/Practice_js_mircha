@@ -16,14 +16,39 @@
       "constelacion": "Cisne"
     },
     {
-      "id": 4,
-      "nombre": "Shun",
-      "constelacion": "Andromeda"
+      "nombre": "undefined",
+      "constelacion": "Andromeda",
+      "id": 4
     },
     {
       "id": 5,
       "nombre": "Ikki",
       "constelacion": "Fenix"
+    },
+    {
+      "id": 6,
+      "nombre": "Saga",
+      "constelacion": "pegaso"
+    },
+    {
+      "nombre": "Mu",
+      "constelacion": "Aries",
+      "id": 7
+    },
+    {
+      "nombre": "Aldebaran",
+      "constelacion": "Tauro",
+      "id": 8
+    },
+    {
+      "nombre": "DeathMask",
+      "constelacion": "undefined",
+      "id": 9
+    },
+    {
+      "nombre": "Shura",
+      "constelacion": "Capricornio",
+      "id": 10
     }
   ],
   "dioses": [
