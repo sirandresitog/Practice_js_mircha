@@ -23,7 +23,7 @@ const getAllSaint = async () => {
       
       let $clone = d.importNode($template, true);
       $fragment.appendChild($clone);
-      console.log($template);
+      //console.log($template);
     });
     $table.querySelector("tbody").appendChild($fragment);
   } catch (error) {
